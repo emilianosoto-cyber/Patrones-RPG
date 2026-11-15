@@ -1,0 +1,74 @@
+--- CORRIDA 1 ---
+Héroe: Aria (Mago) (base) + Espada + Veneno + Bendición
+ATK: 40 | DEF: 11 | VEL: 17 | HP: 100
+Enemigo: Goblin salvaje | HP: 60
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Aria (Mago) (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 60 -> 22
+Goblin salvaje (base) usa AtaquePunalada sobre Aria (Mago)
+  Daño: 15 | Efecto: puñalada
+  Aria (Mago) HP: 100 -> 90
+
+--- TURNO 2 ---
+Aria (Mago) (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 22 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Aria (Mago) (base) + Espada + Veneno + Bendición (HP restante: 90)
+
+
+--- CORRIDA 2 ---
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Garen (Guerrero) (base) + Espada + Bendición usa AtaqueEspada sobre Orco Furioso
+  Daño: 37 | Efecto: corte de espada
+  Orco Furioso HP: 120 -> 87
+Orco Furioso (base) usa AtaqueEspada sobre Garen (Guerrero)
+  Daño: 45 | Efecto: corte de espada
+  Garen (Guerrero) HP: 150 -> 113
+
+--- TURNO 2 ---
+Garen (Guerrero) (base) + Espada + Bendición usa AtaqueEspada sobre Orco Furioso
+  Daño: 37 | Efecto: corte de espada
+  Orco Furioso HP: 87 -> 54
+Orco Furioso (base) usa AtaqueEspada sobre Garen (Guerrero)
+  Daño: 90 (¡CRÍTICO!) | Efecto: corte de espada
+  Garen (Guerrero) HP: 113 -> 31
+
+--- TURNO 3 ---
+Garen (Guerrero) (base) + Espada + Bendición usa AtaqueEspada sobre Orco Furioso
+  Daño: 37 | Efecto: corte de espada
+  Orco Furioso HP: 54 -> 21
+Orco Furioso (base) usa AtaqueEspada sobre Garen (Guerrero)
+  Daño: 90 (¡CRÍTICO!) | Efecto: corte de espada
+  Garen (Guerrero) HP: 31 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Orco Furioso (HP restante: 21)
+
+
+--- CORRIDA 3 ---
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Merlin (Mago) (base) + Espada usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo
+  Goblin salvaje HP: 60 -> 22
+Goblin salvaje (base) usa AtaquePunalada sobre Merlin (Mago)
+  Daño: 15 | Efecto: puñalada
+  Merlin (Mago) HP: 100 -> 90
+
+--- TURNO 2 ---
+Merlin (Mago) (base) + Espada usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo
+  Goblin salvaje HP: 22 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Merlin (Mago) (base) + Espada (HP restante: 90)
+
+Process finished with exit code 0
